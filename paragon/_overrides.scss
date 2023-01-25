@@ -1,10 +1,128 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
+body { 
+    color: #000;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+#root {
+    color: #000;
+    font-size: 14px;
+    overflow-x: hidden
+}
+
 img.logo {
-    width: 120px
+    width: 171px
+}
+
+img.logo-small {
+    width: 150px
+}
+
+a {
+    cursor: pointer
+}
+
+a.muted-link, div.text-accent-a, span.text-accent-a {
+    color: #BE3712 !important
+}
+
+a.btn, button.btn {
+    color: #000
+}
+
+a.text-body {
+    color: #000!important
+}
+
+
+button.btn-brand {
+    background-color: #BE3712;
+    border-color: #BE3712;
+    color: #fff
+}
+
+button.btn-brand:hover {
+    color: #BE3712;
+    border-color: #BE3712;
+    background-color: #fff;
+    -webkit-transition: all .5s ease-in-out!important;
+    -o-transition: all .5s ease-in-out!important;
+    transition: all .5s ease-in-out!important;
+    transform: translateY(-4px);
+    box-shadow: 5px 8px 18px rgb(0 0 0 / 8%)
+}
+
+div.bg-primary-400, span.bg-primary-400 {
+    background-color: #402781!important
+}
+
+.large-screen-svg-primary, .medium-screen-svg-primary {
+    fill: #402781!important
+}
+
+.edx-cookie-banner-wrapper .alert-dismissible button.close {
+    right: 12px !important
+}
+
+div.small-screen-top-stripe {
+    background-image: unset !important
+}
+
+#forgot-password {
+    font-size: 16px
+}
+
+#forgot-password:hover {
+    color: #BE3712 !important;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+    text-decoration: none
 }
 
 h1.display-2 {
-    font-size: 4.5rem
+    font-size: 2.85rem
+}
+
+a.nav-link, pgn__tab_more.nav-link.active dropdown button.dropdown-toggle {
+    color: #000!important
+}
+
+nav.nav-tabs .nav-item.show .nav-link, nav.nav-tabs .nav-link.active, 
+nav.nav-tabs .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, 
+a.pgn__tab_more.nav-link.active .dropdown .nav-tabs .dropdown-toggle {
+    border-color: #0000 #0000 #BE3712;
+    color: #BE3712
+}
+
+a.nav-link:focus, a.nav-link:hover, 
+a.pgn__tab_more.nav-link.active .dropdown .dropdown-toggle:focus, 
+a.pgn__tab_more.nav-link.active .dropdown .dropdown-toggle:hover {
+    color: #000
+}
+
+input.form-control {
+    border: 0.5px solid #373737;
+    color: #000
+}
+
+input.form-control:focus {
+    border-color: #373737;
+    box-shadow: 0 0 0 0.5px #373737;
+    color: #000
+}
+
+input.form-control:hover {
+    border: 1px solid #373737
+}
+
+@media (min-width: 1200px) {
+    [dir=ltr] div.extra-large-screen-top-stripe {
+        background-image: unset
+    }
+    div.extra-large-screen-top-stripe {
+        display: none
+    }
 }
