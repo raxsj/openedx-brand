@@ -1,6 +1,7 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
+// authn mfe
 body { 
     color: #000;
     font-size: 14px;
@@ -125,4 +126,109 @@ input.form-control:hover {
     div.extra-large-screen-top-stripe {
         display: none
     }
+}
+
+// app mfe
+[dir=ltr] #root header a.logo {
+    margin-right: 1.75rem;
+}
+
+#root header a.logo {
+    height: 40px;
+}
+
+#root header {
+    padding: 0.5rem 0;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+a, .btn-icon.btn-icon-primary {
+    color: #BE3712;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+.btn-brand {
+    background-color: #BE3712;
+    border-color: #BE3712;
+}
+
+.btn-brand:hover {
+    color: #BE3712 !important;
+    background: #fff;
+    border-color: #BE3712;
+}
+
+.btn-outline-primary {
+    border-color: #BE3712;
+    color: #BE3712 !important;
+}
+
+.btn-outline-primary:hover {
+    border-color: #BE3712;
+}
+
+.btn-inverse-outline-primary {
+    color: #fff !important;
+}
+
+.btn-inverse-outline-primary:hover {
+    color: #0a3055 !important;
+}
+
+.btn-icon.btn-icon-primary.focus, .btn-icon.btn-icon-primary:focus { 
+    box-shadow: inset 0 0 0 2px #BE3712;
+    color: #BE3712; 
+}
+
+.btn-icon.btn-icon-primary.active, .btn-icon.btn-icon-primary.hover, 
+.btn-icon.btn-icon-primary:active, .btn-icon.btn-icon-primary:hover {
+    background-color: #BE3712;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    color: #212529; 
+    font-size: 14px;
+    min-width: 12rem;
+}
+
+.pgn__card-header .pgn__card-header-actions a.btn {
+    color: #fff;
+}
+
+.nav-underline-tabs a.nav-link.active, 
+.nav-underline-tabs a.nav-link:focus, 
+.nav-underline-tabs a.nav-link:hover {
+    border-bottom-color: #BE3712;
+    color: #BE3712; 
+}
+
+.course-tabs-navigation .nav a:not(.active):hover {
+    color: #BE3712 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, 
+.nav-pills .show>.nav-link, .pgn__tab_more.nav-link.active .dropdown .nav-pills .dropdown-toggle {
+    background-color: #BE3712;
+    color: #fff !important;
+}
+
+.nav-pills .nav-item {
+    margin-right: 1rem;
 }
