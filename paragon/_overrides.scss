@@ -56,6 +56,15 @@ button.btn-brand:hover {
     box-shadow: 5px 8px 18px rgb(0 0 0 / 8%)
 }
 
+#site-preferences .btn-primary {
+    color: #fff
+}
+
+#site-preferences .btn-primary:hover {
+    background-color: #fff;
+    color: #0a3055
+}
+
 div.bg-primary-400, span.bg-primary-400 {
     background-color: #402781!important
 }
