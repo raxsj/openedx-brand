@@ -56,11 +56,11 @@ button.btn-brand:hover {
     box-shadow: 5px 8px 18px rgb(0 0 0 / 8%)
 }
 
-#site-preferences .btn-primary {
+#site-preferences .btn-primary, .alert .btn-primary {
     color: #fff
 }
 
-#site-preferences .btn-primary:hover {
+#site-preferences .btn-primary:hover, .alert .btn-primary:hover {
     background-color: #fff;
     color: #0a3055
 }
