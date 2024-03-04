@@ -1,6 +1,6 @@
 // body layout login page
-#root .layout{
-    background: rgb(233,104,40) !important;
+#root{
+    background: #e96828 !important;
     background: linear-gradient(90deg, rgba(233,104,40,1) 0%, rgba(255,255,255,1) 100%) !important;
 }
 
@@ -9,8 +9,12 @@
     display: none !important;
 }
 
-// sign in button
-#root .layout .content #main-content .btn-brand{
-    background-color: #e96828 !important;
+button.btn-brand{
+    background-color: #e96828;
 }
+
+// // sign in button
+// #root .layout .content #main-content .btn-brand{
+//     background-color: #e96828 !important;
+// }
 
