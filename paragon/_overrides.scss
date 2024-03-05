@@ -1,15 +1,15 @@
 // body layout login page
-#root .layout{
-    background: #e96828 !important;
+.layout{
+        background: #e96828 !important;
 }
 
 // login page customization
-#root .layout .content .nav.nav-tabs .nav-link:first-child{
+a#controlled-tab-tab-\/register {
     display: none !important;
 }
-
 // sign in button
-#root .layout .content #main-content .btn-brand{
-    background-color: #e96828;
+button#sign-in {
+    background: #e96828 !important;
+    border-color: #e96828 !important;
 }
 
