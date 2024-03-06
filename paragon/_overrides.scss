@@ -33,8 +33,7 @@ h1.display-2.text-white.mw-xs.ml-6 {
     text-transform: uppercase;
 }
 .text-accent-a {
-    margin: 40px auto;
-    font-family: 'Ubuntu', sans-serif;
+    margin: 10px auto;
     font-size: 90px;
     font-weight: bold;
     color: #034382 !important;
@@ -52,6 +51,12 @@ h1.display-2.text-white.mw-xs.ml-6 {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 2%;
     border-radius: 8px;
+}
+
+// nav form styles
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 2px solid #e96829 !important;
+    color: #e96828 !important;
 }
 
 // input form
@@ -75,6 +80,10 @@ a#controlled-tab-tab-\/register {
 button#sign-in {
     background: #e96828 !important;
     border-color: #e96828 !important;
+}
+
+button#sign-in:hover{
+    background-color: #d05e26 !important;
 }
 
 // btn social
