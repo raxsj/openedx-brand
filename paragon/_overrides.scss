@@ -1,8 +1,8 @@
 //////////////////Authn Styles///////////////////////
 
 .layout{
-    background: #e96828;
-    background: linear-gradient(90deg, rgba(233,104,40,1) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(233,104,40);
+    background: linear-gradient(90deg, rgba(233,104,40,1) 0%, rgba(255,255,255,1) 50%);
 }
 
 //header background to none
@@ -30,12 +30,35 @@
     font-size: 70px;
     font-weight: bold;
     color: #d15f26 !important;
-    text-align: center;
     letter-spacing: 5px;
     text-shadow: 3px 4px 7px rgba(0,0,0,0.9);
 }
 
 // login page customization
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    width: 50vw;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+// input form
+.form-control{
+    border: 1px solid #e96828 !important;
+}
+.form-control:hover {
+    border: 1px solid #e96828 !important;
+}
+
+.form-control:focus{
+    border: 2px solid #e96828 !important;
+    outline: 1px solid #e96828 !important;
+}
+
 a#controlled-tab-tab-\/register {
     display: none !important;
 }
@@ -44,5 +67,16 @@ a#controlled-tab-tab-\/register {
 button#sign-in {
     background: #e96828 !important;
     border-color: #e96828 !important;
+}
+
+// btn social
+.btn-oa2-azuread-oauth2 {
+    background-color: #e96828;
+    border-color: #e96828;
+    color: #fff;
+}
+
+.btn-oa2-azuread-oauth2:hover{
+    background-color: #d05e26;
 }
 
