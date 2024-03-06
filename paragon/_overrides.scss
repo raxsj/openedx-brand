@@ -104,3 +104,48 @@ button#sign-in:hover{
 
 }
 
+///////////////////// Learners dashboard styles//////////////////////////
+
+//navbar background
+#root .learner-variant-header {
+    width: 100% !important;
+    padding: 0% !important;
+    background: #e96828;
+}
+
+
+.flex-grow-1.d-flex.align-items-center {
+    padding: 0 2%;
+}
+
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+    padding-right: 2% !important;
+}
+
+// navbar text color
+.flex-grow-1.d-flex.align-items-center > a {
+    color: #ececec !important;
+}
+
+// accout button styles
+#root .user-dropdown button {
+    background: #e96828 !important;
+    color: #ececec;
+}
+
+#root .user-dropdown button:after {
+    border-color: #ececec !important;
+}
+
+// View as button color
+.masquerade-bar .btn-brand {
+    background: #e96828 !important;
+    border: #e96828 !important;
+}
+
+// my courses btn view course color
+.btn-primary {
+    background-color: #e96828 !important;
+    border-color: #e96828 !important;
+}
