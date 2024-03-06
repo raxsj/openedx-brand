@@ -1,17 +1,45 @@
-// body layout login page
+//////////////////Authn Styles///////////////////////
+
 .layout{
-        background: #e96828 !important;
+    background: #e96828;
+    background: linear-gradient(90deg, rgba(233,104,40,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-//header background
-header.d-flex.shadow-sm.align-items-center.learner-variant-header.pl-4 {
-    background: #e96828 !important;
+//header background to none
+.col-md-12.extra-large-screen-top-stripe {
+    display: none;
+}
+
+// body styles
+.bg-primary-400 {
+    background-color: transparent !important;
+}
+
+.col-md-2.bg-white.p-0 {
+    display: none;
+}
+
+.col-md-3.bg-white.p-0 {
+    display: none;
+}
+
+// header text background "Start Learning With VXI"
+.text-accent-a {
+    margin: 40px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #d15f26 !important;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 4px 7px rgba(0,0,0,0.9);
 }
 
 // login page customization
 a#controlled-tab-tab-\/register {
     display: none !important;
 }
+
 // sign in button
 button#sign-in {
     background: #e96828 !important;
