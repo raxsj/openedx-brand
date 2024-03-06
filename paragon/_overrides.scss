@@ -24,14 +24,19 @@
 }
 
 // header text background "Start Learning With VXI"
+h1.display-2.text-white.mw-xs.ml-6 {
+    font-size: 25px;
+    text-shadow: 1px 3px 5px rgba(123,121,121,0.6);
+    text-transform: uppercase;
+}
 .text-accent-a {
     margin: 40px auto;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: bold;
     color: #d15f26 !important;
     letter-spacing: 5px;
-    text-shadow: 3px 4px 7px rgba(0,0,0,0.9);
+    text-shadow: 1px 3px 5px rgba(123,121,121,0.6);
 }
 
 // login page customization
@@ -70,13 +75,20 @@ button#sign-in {
 }
 
 // btn social
+.btn-social{
+    border: 1px solid #e96828 !important;
+}
 .btn-oa2-azuread-oauth2 {
-    background-color: #e96828;
-    border-color: #e96828;
-    color: #fff;
+    background-color: #e96828 !important;
+    border-color: #e96828 !important;
 }
 
 .btn-oa2-azuread-oauth2:hover{
-    background-color: #d05e26;
+    background-color: #d05e26 !important;
+}
+
+.btn-tpa__font-container {
+    background-color: #d05e26 !important;
+
 }
 
