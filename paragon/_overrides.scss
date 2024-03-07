@@ -107,12 +107,26 @@ button#sign-in:hover{
 ///////////////////// Learners dashboard styles//////////////////////////
 
 //navbar background
-#root .learner-variant-header {
+.learner-variant-header {
     width: 100% !important;
     padding: 0% !important;
     background: #e96828;
 }
 
+// navbar buttons styles
+.btn-inverse-primary {
+    background-color: #e96828 !important;
+    border-color: #e96828 !important;
+}
+
+.learner-variant-header .course-link {
+    border-bottom: none !important; 
+}
+
+.learner-variant-header .course-link {
+    border-bottom: 2px solid #0a3055 !important;
+    border-radius: unset !important;
+}
 
 .flex-grow-1.d-flex.align-items-center {
     padding: 0 2%;
@@ -126,12 +140,15 @@ button#sign-in:hover{
 // navbar text color
 .flex-grow-1.d-flex.align-items-center > a {
     color: #ececec !important;
+    background: #e96828 !important;
+    border-color: #e96828 !important;
 }
 
 // accout button styles
 #root .user-dropdown button {
     background: #e96828 !important;
     color: #ececec;
+    border: #e96828;
 }
 
 #root .user-dropdown button:after {
@@ -149,3 +166,33 @@ button#sign-in:hover{
     background-color: #e96828 !important;
     border-color: #e96828 !important;
 }
+
+// footer styles
+#root footer {
+    border-top: 1px solid #dbdada;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.logo-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.logo-list li:first-child {
+    font-size: 12px !important;
+}
+
+span.copyright-site {
+    font-size: 12px;
+    padding-right: 3%;
+}
+
+
