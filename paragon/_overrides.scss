@@ -195,5 +195,27 @@ span.copyright-site {
     padding-right: 3%;
 }
 
-/// new styles
+/// Styles for learning
 
+// navbar styles in learning dashboard
+.bg-primary.text-white{
+    background-color: #e96828 !important;
+}
+
+nav.nav.flex-nowrap.nav-underline-tabs a {
+    color: #e96828 !important;
+}
+
+.nav-underline-tabs .nav-link.active, .nav-underline-tabs .nav-link:focus, .nav-underline-tabs .nav-link:hover {
+    border-bottom-color: #e96828 !important;
+    color: #e96828 !important;
+}
+
+a.btn.btn-brand.btn-block {
+    background: #e96828 !important;
+}
+
+.btn-outline-primary {
+    border-color: #e96828 !important;
+    color: #e96828 !important;
+}
