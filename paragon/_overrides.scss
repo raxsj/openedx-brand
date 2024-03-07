@@ -213,9 +213,18 @@ nav.nav.flex-nowrap.nav-underline-tabs a {
 
 a.btn.btn-brand.btn-block {
     background: #e96828 !important;
+    border-color: #e96828 !important;
+}
+
+button.btn.btn-outline-primary.btn-block {
+    color: #e96828 !important;
 }
 
 .btn-outline-primary {
     border-color: #e96828 !important;
-    color: #e96828 !important;
+}
+
+.flex-grow-1.course-title-lockup {
+    font-size: 12px;
+    font-weight: 700;
 }
