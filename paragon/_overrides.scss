@@ -1,4 +1,7 @@
 //////////////////Authn Styles///////////////////////
+#root{
+    position: relative;
+}
 
 .layout{
     background: rgb(233,104,40);
@@ -242,4 +245,29 @@ button.btn.btn-outline-primary.btn-block {
 .flex-grow-1.course-title-lockup {
     font-size: 12px;
     font-weight: 700;
+}
+
+////// Progress page styles
+
+.grade-bar .grade-bar__divider {
+    fill: #e96828 !important;
+}
+
+.grade-bar .grade-bar--passing {
+    fill: #e96828 !important;
+}
+
+.text-dark-700.popover-body {
+    color: #fff !important;
+}
+
+#minimum-grade-tooltip .arrow:after {
+    border-bottom-color: #e96828;
+}
+#non-passing-grade-tooltip .arrow:after {
+    border-top-color: #e96828;
+}
+
+.popover-body {
+    background-color: #e96828 !important;
 }
