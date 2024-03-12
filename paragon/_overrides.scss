@@ -191,7 +191,7 @@ ul.logo-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0 I !important;
+    margin-bottom: 0 !important;
 }
 
 ul.logo-list li:first-child {
@@ -285,6 +285,10 @@ button.btn.btn-outline-primary.btn-block {
 .flex-grow-1.course-title-lockup {
     font-size: 12px;
     font-weight: 700;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #E96827;
 }
 
 ////// Progress page styles
