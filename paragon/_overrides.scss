@@ -1,4 +1,8 @@
 //////////////////Authn Styles///////////////////////
+h4{
+    font-weight: 400;
+}
+
 #root{
     position: relative;
 }
@@ -187,10 +191,20 @@ ul.logo-list {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0 I !important;
 }
 
 ul.logo-list li:first-child {
     font-size: 12px !important;
+}
+
+ul.logo-list li:nth-child(2) {
+    padding: 0 10px !important;
+    border-right: 1px solid #c7c7c7;
+}
+
+ul.logo-list li:nth-child(3) {
+    padding-left: 10px !important;
 }
 
 span.copyright-site {
