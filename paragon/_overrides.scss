@@ -151,8 +151,10 @@ button#sign-in:hover{
 }
 
 .d-flex.flex-column.flex-grow-1 {
+    flex-direction: row !important;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
+    gap: 6%;
 }
 .pgn__card.horizontal{
     width: 300px;
@@ -165,7 +167,7 @@ button#sign-in:hover{
 .pgn__card.horizontal.pgn__card-light.card {
     min-height: 400px;
     max-height: 500px;
-    height: 435px;
+    height: 415px;
     position: relative;
     box-shadow: none;
 }
@@ -205,7 +207,7 @@ a.p-4.btn.btn-inverse-primary:nth-child(6) {
     border-radius: 0 !important;
     position: absolute;
     bottom: 0;
-    background-color: #dddddd;
+    background-color: transparent !important;
 }
 
 // sidebar course display to none
@@ -216,10 +218,6 @@ a.p-4.btn.btn-inverse-primary:nth-child(6) {
 
 .course-list-column.col-xl-8.col-lg-12.offset-xl-0.offset-lg-0{
     margin: 0 auto;
-}
-
-.d-flex.flex-column.flex-grow-1 {
-    gap: 6%;
 }
 
 a.pgn__card-wrapper-image-cap.overflow-visible.horizontal {
