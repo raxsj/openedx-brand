@@ -117,7 +117,12 @@ button#sign-in:hover{
 .learner-variant-header {
     width: 100% !important;
     padding: 0% !important;
-    background: #e96828;
+    // background: #e96828;
+}
+
+// image logo
+#root header .logo {
+    height: 45px !important;
 }
 
 // navbar buttons styles
@@ -144,22 +149,50 @@ button#sign-in:hover{
     padding-right: 2% !important;
 }
 
+.d-flex.flex-column.flex-grow-1 {
+    flex-direction: revert !important;
+    flex-wrap: wrap;
+}
+
+.d-flex.flex-column.flex-grow-1 > div {
+    width: 300px;
+    margin: 0 10px;
+    height: 400px;
+}
+
+.pgn__card .d-flex.flex-column.w-100{
+    
+}
+
 // navbar text color
 .flex-grow-1.d-flex.align-items-center > a {
     color: #ececec !important;
-    background: #e96828 !important;
-    border-color: #e96828 !important;
+    background: #73777B !important;
+    border-color: #73777B !important;
+}
+
+a.p-4.btn.btn-inverse-primary:nth-child(3) {
+    display: none;
+}
+a.p-4.btn.btn-inverse-primary:nth-child(6) {
+    display: none;
 }
 
 // accout button styles
 #root .user-dropdown button {
-    background: #e96828 !important;
+    background: #73777B !important;
+    border: #73777B !important;
     color: #ececec;
-    border: #e96828;
 }
 
 #root .user-dropdown button:after {
     border-color: #ececec !important;
+}
+
+// sidebar course display to none
+
+.sidebar-column.col-xl-4.col-lg-12.offset-xl-0.offset-lg-0 {
+    display: none;
 }
 
 // View as button color
@@ -314,4 +347,13 @@ button.btn.btn-outline-primary.btn-block {
 
 .popover-body {
     background-color: #e96828 !important;
+}
+
+
+///////////////learners dashboard media querty
+
+@media only screen and (min-width: 1440px) {
+    .course-list-column.col-xl-8.col-lg-12.offset-xl-0.offset-lg-0 {
+        width: 100%;
+    }
 }
