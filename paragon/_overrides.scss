@@ -165,8 +165,16 @@ button#sign-in:hover{
 
 .pgn__card.horizontal.pgn__card-light.card {
     min-height: 400px;
-    max-height: 400px;
+    max-height: 500px;
+    height: 450px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.pgn__card.horizontal.pgn__card-light.card:hover {
+    
+    transform: scale(1.2);
+    z-index: 3;
+    transition: .5s ease;
 }
 
 // navbar text color
@@ -192,6 +200,14 @@ a.p-4.btn.btn-inverse-primary:nth-child(6) {
 
 #root .user-dropdown button:after {
     border-color: #ececec !important;
+}
+
+.course-card .course-card-banners>.alert:last-of-type {
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    position: absolute;
+    bottom: 0;
+    background-color: #dddddd;
 }
 
 // sidebar course display to none
@@ -220,10 +236,15 @@ a.pgn__card-wrapper-image-cap.overflow-visible.horizontal {
 
 .pgn__card .d-flex.flex-column.w-100 .d-flex .pgn__card-body{
     line-height: 1;
+    height: 70%;
 }
 
 .pgn__card .d-flex.flex-column.w-100 .d-flex .pgn__card-footer{
     padding: 0 1.25rem;
+}
+
+.course-card .course-card-banners>.alert {
+    background-color: #dddddd;
 }
 
 .pgn__action-row button.btn.btn-outline-primary {
@@ -392,9 +413,9 @@ button.btn.btn-outline-primary.btn-block {
 ///////////////learners dashboard media querty
 
 
-@media (min-width: 1540px){
+@media (min-width: 1440px){
     .course-list-column.col-xl-8.col-lg-12.offset-xl-0.offset-lg-0 {
-        flex: 0 0 25% !important;
+        flex: 0 0 100% !important;
         max-width: 100% !important;
     }
 }
