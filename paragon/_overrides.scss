@@ -1,4 +1,8 @@
 //////////////////Authn Styles///////////////////////
+h4{
+    font-weight: 400;
+}
+
 #root{
     position: relative;
     padding-bottom: 100px;
@@ -114,7 +118,12 @@ button#sign-in:hover{
 .learner-variant-header {
     width: 100% !important;
     padding: 0% !important;
-    background: #e96828;
+    // background: #e96828;
+}
+
+// image logo
+#root header .logo {
+    height: 45px !important;
 }
 
 // navbar buttons styles
@@ -141,22 +150,58 @@ button#sign-in:hover{
     padding-right: 2% !important;
 }
 
+.d-flex.flex-column.flex-grow-1 {
+    flex-direction: revert !important;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.pgn__card.horizontal{
+    width: 300px;
+}
+
+.pgn__card-body {
+    position: relative;
+}
+
+.pgn__card.horizontal.pgn__card-light.card {
+    min-height: 400px;
+    max-height: 400px;
+    position: relative;
+}
+
 // navbar text color
 .flex-grow-1.d-flex.align-items-center > a {
     color: #ececec !important;
-    background: #e96828 !important;
-    border-color: #e96828 !important;
+    background: #73777B !important;
+    border-color: #73777B !important;
+}
+
+a.p-4.btn.btn-inverse-primary:nth-child(3) {
+    display: none;
+}
+a.p-4.btn.btn-inverse-primary:nth-child(6) {
+    display: none;
 }
 
 // accout button styles
 #root .user-dropdown button {
-    background: #e96828 !important;
+    background: #73777B !important;
+    border: #73777B !important;
     color: #ececec;
-    border: #e96828;
 }
 
 #root .user-dropdown button:after {
     border-color: #ececec !important;
+}
+
+// sidebar course display to none
+
+.sidebar-column.col-xl-4.col-lg-12.offset-xl-0.offset-lg-0 {
+    display: none;
+}
+
+.pgn__action-row button.btn.btn-outline-primary {
+    display: none;
 }
 
 // View as button color
@@ -188,10 +233,20 @@ ul.logo-list {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0 !important;
 }
 
 ul.logo-list li:first-child {
     font-size: 12px !important;
+}
+
+ul.logo-list li:nth-child(2) {
+    padding: 0 10px !important;
+    border-right: 1px solid #c7c7c7;
+}
+
+ul.logo-list li:nth-child(3) {
+    padding-left: 10px !important;
 }
 
 span.copyright-site {
@@ -201,9 +256,31 @@ span.copyright-site {
 
 /// Styles for learning
 
+
+// learner navbar header inside the begin course
+header.learning-header {
+    background-color: #e96828 !important;
+    color: #fff !important;
+}
+
 // navbar styles in learning dashboard
 .bg-primary.text-white{
-    background-color: #e96828 !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    border-bottom: 1px solid #e7e7e7;
+    font-weight: 400;
+}
+
+
+// button in staff and studio inside the begin course button
+.btn-inverse-outline-primary {
+    border-color: #e96828;
+    color: #e96828;
+}
+
+.btn-inverse-outline-primary:hover {
+    background-color: #e96828;
+    color: #fff;
 }
 
 nav.nav.flex-nowrap.nav-underline-tabs a {
@@ -226,8 +303,12 @@ nav.nav.flex-nowrap.nav-underline-tabs a {
 
 
 .flex-grow-1.course-title-lockup .nav-course a{
-    color: #5c5a5a !important;
+    color: #fff !important;
     text-decoration: none;
+}
+
+.flex-grow-1.course-title-lockup .nav-course a:hover{
+    color: #ececec !important;
 }
 
 a.btn.btn-brand.btn-block {
@@ -246,6 +327,10 @@ button.btn.btn-outline-primary.btn-block {
 .flex-grow-1.course-title-lockup {
     font-size: 12px;
     font-weight: 700;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #E96827;
 }
 
 ////// Progress page styles
@@ -271,4 +356,14 @@ button.btn.btn-outline-primary.btn-block {
 
 .popover-body {
     background-color: #e96828 !important;
+}
+
+
+///////////////learners dashboard media querty
+
+@media only screen and (min-width: 1640px) {
+    .course-list-column.col-xl-8.col-lg-12.offset-xl-0.offset-lg-0 {
+        flex: 1 !important;
+        width: 100% !important;
+    }
 }
