@@ -152,16 +152,20 @@ button#sign-in:hover{
 .d-flex.flex-column.flex-grow-1 {
     flex-direction: revert !important;
     flex-wrap: wrap;
+    justify-content: center
 }
-
-.d-flex.flex-column.flex-grow-1 > div {
+.pgn__card.horizontal{
     width: 300px;
-    margin: 0 10px;
-    height: 400px;
 }
 
-.pgn__card .d-flex.flex-column.w-100{
-    
+.pgn__card-body {
+    position: relative;
+}
+
+.pgn__card.horizontal.pgn__card-light.card {
+    min-height: 400px;
+    max-height: 400px;
+    position: relative;
 }
 
 // navbar text color
@@ -192,6 +196,10 @@ a.p-4.btn.btn-inverse-primary:nth-child(6) {
 // sidebar course display to none
 
 .sidebar-column.col-xl-4.col-lg-12.offset-xl-0.offset-lg-0 {
+    display: none;
+}
+
+.pgn__action-row button.btn.btn-outline-primary {
     display: none;
 }
 
@@ -352,8 +360,9 @@ button.btn.btn-outline-primary.btn-block {
 
 ///////////////learners dashboard media querty
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1640px) {
     .course-list-column.col-xl-8.col-lg-12.offset-xl-0.offset-lg-0 {
-        width: 100%;
+        flex: 1 !important;
+        width: 100% !important;
     }
 }
