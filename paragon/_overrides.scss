@@ -150,7 +150,7 @@ button#sign-in:hover{
     padding-right: 2% !important;
 }
 
-.d-flex.flex-column.flex-grow-1 {
+.course-list-container .d-flex.flex-column.flex-grow-1 {
     flex-direction: row !important;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -329,7 +329,7 @@ span.copyright-site {
 
 // learner navbar header inside the begin course
 header.learning-header {
-    background-color: #e96828 !important;
+    background-color: #454545 !important;
     color: #fff !important;
 }
 
