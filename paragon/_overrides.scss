@@ -153,7 +153,8 @@ button#sign-in:hover{
 .course-list-container .d-flex.flex-column.flex-grow-1 {
     flex-direction: row !important;
     flex-wrap: wrap;
-    gap: 2%;
+    gap: 5%;
+    justify-content: center;
 }
 .pgn__card.horizontal{
     width: 300px;
