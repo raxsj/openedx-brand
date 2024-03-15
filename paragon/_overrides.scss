@@ -72,6 +72,11 @@ nav.pgn__tabs.nav.nav-tabs{
 }
 
 // nav form styles
+
+.w-100.medium-screen-top-stripe {
+    display: none;
+}
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-bottom: 2px solid #e96829 !important;
     color: #e96828 !important;
@@ -92,6 +97,15 @@ nav.pgn__tabs.nav.nav-tabs{
 
 a#controlled-tab-tab-\/register {
     display: none !important;
+}
+
+.mw-xs.mt-3 .mt-4.mb-3.h4{
+    visibility: hidden;
+}
+
+.mw-xs.mt-3 .mt-4.mb-3.h4::before{
+    content: "Sign in with:";
+    visibility: visible;
 }
 
 // sign in button
