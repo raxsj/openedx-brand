@@ -54,10 +54,21 @@ h1.display-2.text-white.mw-xs.ml-6 {
     justify-content: center;
     margin: 2rem;
     width: 50vw;
+    height: 80vh;
     background: #fff;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 2%;
     border-radius: 8px;
+    position: relative;
+}
+
+
+nav.pgn__tabs.nav.nav-tabs{
+    display: none;
+}
+
+.pgn__form-group{
+    display: none;
 }
 
 // nav form styles
@@ -87,10 +98,15 @@ a#controlled-tab-tab-\/register {
 button#sign-in {
     background: #e96828 !important;
     border-color: #e96828 !important;
+    display: none;
 }
 
 button#sign-in:hover{
     background-color: #d05e26 !important;
+}
+
+a#forgot-password {
+    display: none;
 }
 
 // btn social
@@ -109,6 +125,14 @@ button#sign-in:hover{
 .btn-tpa__font-container {
     background-color: #d05e26 !important;
 
+}
+
+#main-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 !important;
 }
 
 ///////////////////// Learners dashboard styles//////////////////////////
