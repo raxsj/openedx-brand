@@ -153,7 +153,6 @@ button#sign-in:hover{
 .course-list-container .d-flex.flex-column.flex-grow-1 {
     flex-direction: row !important;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 2%;
 }
 .pgn__card.horizontal{
@@ -439,3 +438,9 @@ button.btn.btn-outline-primary.btn-block {
     }
 }
 
+@media (min-width: 1200px){
+    .course-list-column.col-xl-8.col-lg-12.offset-xl-0.offset-lg-0 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
