@@ -44,7 +44,7 @@ h1.display-2.text-white.mw-xs.ml-6 {
     margin: 10px auto;
     font-size: 90px;
     font-weight: bold;
-    color: #034382 !important;
+    color: #454545 !important;
     letter-spacing: 5px;
     text-shadow: 1px 3px 5px rgba(123,121,121,0.6);
 }
@@ -124,6 +124,14 @@ button#sign-in:hover{
 // image logo
 #root header .logo {
     height: 45px !important;
+}
+
+
+// image for each course
+img.pgn__card-image-cap.show {
+    width: 100%;
+    height: auto !important;
+    object-fit: cover !important;
 }
 
 // navbar buttons styles
@@ -286,6 +294,11 @@ img.pgn__card-image-cap.show{
     border-color: #e96828 !important;
 }
 
+
+.course-outline-tab .col.col-12.col-md-4 {
+    display: none;
+}
+
 // footer styles
 footer {
     border-top: 1px solid #dbdada;
@@ -429,6 +442,10 @@ button.btn.btn-outline-primary.btn-block {
 }
 
 
+.row.w-100.m-0 .col-12.col-md-4.p-0.px-md-4{
+    display: none;
+}
+
 ///////////////learners dashboard media querty
 
 
@@ -443,5 +460,18 @@ button.btn.btn-outline-primary.btn-block {
     .course-list-column.col-xl-8.col-lg-12.offset-xl-0.offset-lg-0 {
         flex: 0 0 100% !important;
         max-width: 100% !important;
+    }
+}
+
+
+@media (min-width: 768px){
+    .course-outline-tab .col.col-12.col-md-8{
+        flex: 0 0 100% !important;
+        max-width: 100%;
+    }
+
+    .row.w-100.m-0 .col-12.col-md-8.p-0{
+        flex: 0 0 100% !important;
+        max-width: 100%
     }
 }
