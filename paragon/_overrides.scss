@@ -1,4 +1,8 @@
 //////////////////Authn Styles///////////////////////
+body{
+    overflow-x: hidden;
+}
+
 h4{
     font-weight: 400;
 }
@@ -42,9 +46,10 @@ h1.display-2.text-white.mw-xs.ml-6 {
     text-transform: uppercase;
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 43%;
     transform: translate(-33%, -30%);
     width: 100% !important;
+    margin: 0 !important;
 }
 .text-accent-a {
     margin: 10px auto;
@@ -68,6 +73,10 @@ h1.display-2.text-white.mw-xs.ml-6 {
     border-radius: 8px;
 }
 
+.layout .w-50 {
+    width: 100% !important;
+}
+
 // nav form styles
 
 .w-100.medium-screen-top-stripe {
@@ -77,6 +86,14 @@ h1.display-2.text-white.mw-xs.ml-6 {
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-bottom: 2px solid #e96829 !important;
     color: #e96828 !important;
+}
+
+
+.min-vh-100.d-flex.align-items-center .mw-xs {
+    /* max-width: 464px !important; */
+    /* max-width: 0 !important; */
+    width: 700px !important;
+    text-align: center;
 }
 
 // input form
@@ -105,6 +122,8 @@ a#controlled-tab-tab-\/register {
     visibility: visible;
 }
 
+
+
 // sign in button
 button#sign-in {
     background: #e96828 !important;
@@ -122,7 +141,7 @@ a#forgot-password {
 
 // btn social
 .btn-social{
-    border: 1px solid #e96828 !important;
+    border: 1px solid #454545 !important;
 }
 .btn-oa2-azuread-oauth2 {
     // background-color: #e96828 !important;
@@ -131,7 +150,7 @@ a#forgot-password {
     width: 100px;
     height: 30px;
     font-size: 16px;
-    background: #454545;
+    background-color: #454545 !important;
     border: none;
     position: relative;
     color: #f0f0f0;
@@ -145,41 +164,13 @@ a#forgot-password {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-}
-
-.btn-oa2-azuread-oauth2::after,
-.btn-oa2-azuread-oauth2::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -99999;
-  transition: all .4s;
-}
-
-.btn-oa2-azuread-oauth2::before {
-    transform: translate(0%, 0%);
-    width: 100%;
-    height: 100%;
-    background: #28282d;
     border-radius: 10px;
-  }
+}
 
-  .btn-oa2-azuread-oauth2::after {
-    transform: translate(10px, 10px);
-    width: 35px;
-    height: 35px;
-    background: #ffffff15;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border-radius: 50px;
-  }
+.btn-oa2-azuread-oauth2:hover{
+    background-color: #000 !important;
+}
 
-  .btn-oa2-azuread-oauth2:hover::before {
-    transform: translate(5%, 20%);
-    width: 110%;
-    height: 110%;
-  }
 
 .btn-tpa__font-container {
     background-color: #d05e26 !important;
@@ -187,18 +178,28 @@ a#forgot-password {
 
 }
 
-.btn-oa2-azuread-oauth2:active::after {
-    transition: 0s;
-    transform: translate(0, 5%);
-  }
-
 
 form#sign-in-form {
     position: absolute;
-    left: 54%;
+    left: 51%;
     top: 50%;
     transform: translate(-50%, -50%);
     /* align-items: center !important; */
+    visibility: hidden !important;
+}
+
+#main-content {
+    padding: 0 !important;
+    position: absolute;
+    top: 50%;
+}
+
+.pgn__form-group {
+    display: none !important;
+}
+
+nav.pgn__tabs.nav.nav-tabs {
+    display: none !important;
 }
 
 ///////////////////// Learners dashboard styles//////////////////////////
@@ -576,7 +577,15 @@ button.btn.btn-outline-primary.btn-block {
         flex: 0 0 100% !important;
         max-width: 100%
     }
-    .layout .col-md-9.bg-primary-400{
+    .layout .w-50 .col-md-9.bg-primary-400{
         width: 100% !important;
+    }
+    .col-md-9.bg-primary-400{
+        width: 100% !important;
+    }
+
+    .layout .w-50 .col-md-9 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
     }
 }
