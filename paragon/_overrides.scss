@@ -46,10 +46,11 @@ h1.display-2.text-white.mw-xs.ml-6 {
     text-transform: uppercase;
     position: absolute;
     top: 30%;
-    left: 43%;
+    left: 40%;
     transform: translate(-33%, -30%);
     width: 100% !important;
     margin: 0 !important;
+    max-width: 900px !important;
 }
 .text-accent-a {
     margin: 10px auto;
@@ -191,9 +192,9 @@ form#sign-in-form {
 #main-content {
     padding: 0 !important;
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-52%, -50%);
+    top: 50%;
+    left: 51%;
+    transform: translate(-51%, -50%);
 }
 
 .pgn__form-group {
