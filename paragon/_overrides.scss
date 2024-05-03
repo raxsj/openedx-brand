@@ -48,8 +48,8 @@ h1.display-2.text-white.mw-xs.ml-6 {
     text-shadow: 1px 3px 5px rgba(123,121,121,0.6);
     text-transform: uppercase;
     position: absolute;
-    top: 30%;
-    left: 40%;
+    top: 40%;
+    left: 22%;
     transform: translate(-33%, -30%);
     width: 100% !important;
     margin: 0 !important;
@@ -132,7 +132,8 @@ a#controlled-tab-tab-\/register {
 button#sign-in {
     background: #e96828 !important;
     border-color: #e96828 !important;
-    display: none;
+    display: block !important;
+    // display: none;
 }
 
 button#sign-in:hover{
@@ -189,15 +190,18 @@ form#sign-in-form {
     left: 51%;
     top: 50%;
     transform: translate(-50%, -50%);
+    padding: 20% 10% 10% 10%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     /* align-items: center !important; */
-    visibility: hidden !important;
+    // visibility: hidden !important;
 }
 
 .content div div #main-content {
     padding: 0 !important;
     position: absolute;
     top: 50%;
-    left: 51%;
+    left: 80%;
     transform: translate(-51%, -50%);
 }
 
@@ -206,7 +210,17 @@ form#sign-in-form {
 }
 
 nav.pgn__tabs.nav.nav-tabs {
-    display: none !important;
+    // display: none !important;
+}
+
+a#controlled-tab-tab-\/login{
+    border-bottom: 2px solid #e96829 !important;
+    color: #e96828 !important;
+    position: absolute;
+    left: 71%;
+    top: 22%;
+    z-index: 27;
+    display: block !important;
 }
 
 ///////////////////// Learners dashboard styles//////////////////////////
