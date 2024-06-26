@@ -55,20 +55,37 @@ h1.display-2.text-white.mw-xs.ml-6 {
     width: 100% !important;
     margin: 0 !important;
     max-width: 900px !important;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 h1.display-2.text-white.mw-xs.ml-6::before{
-    content: url("");
-    font-size: 25px;
-
+    content: '';
+    display: inline-block;
+    width: 300px;
+    background: url("https://raw.githubusercontent.com/allenluna/VXI_Brand-OpenEdx/main/itechlogo-white.png") no-repeat center center;
+    background-size: cover;
+    margin-right: 10px;
+    vertical-align: middle;
+    height: 60px;
 }
 .text-accent-a {
     margin: 10px auto;
-    font-size: 90px;
+    font-size: 0;
+    // font-size: 90px;
     font-weight: bold;
     color: #454545 !important;
     letter-spacing: 5px;
     text-shadow: 1px 3px 5px rgba(123,121,121,0.6);
+}
+
+.text-accent-a::before{
+    content: "VXI LEARN";
+    font-size: 90px;
 }
 
 // login page customization
