@@ -102,6 +102,11 @@ h1.display-2.text-white.mw-xs.ml-6::before{
     border-radius: 8px;
 }
 
+// danger error
+div#login-failure-alert {
+    z-index: 1;
+}
+
 .layout .w-50 {
     width: 100% !important;
 }
