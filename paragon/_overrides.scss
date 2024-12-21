@@ -43,8 +43,9 @@ h4{
 
 ///////////////// OKTA UNLINKED DISABLED
 button.pgn__stateful-btn.pgn__stateful-btn-state-default.btn.btn-link {
-    pointer-events: none;
+    pointer-events: none !important;
 }
+
 
 // header text background "Start Learning With VXI" and image
 img.logo.position-absolute {
