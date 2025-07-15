@@ -39,16 +39,11 @@ button#sign-in {
     border-color: #e96828 !important;
     display: none !important;
 }
+
 .small-screen-top-stripe {
     background-repeat: no-repeat;
     height: .25rem;
     display: none;
-}
-
-button#sign-in {
-    background: #e96828 !important;
-    border-color: #e96828 !important;
-    display: none !important;
 }
 
 .mw-xs.mt-3 .mt-4.mb-3.h4:before {
@@ -295,7 +290,7 @@ p.mt-5\.5.small.text-gray-700 {
     all: unset;
     width: 100px;
     height: 30px;
-    // font-size: 16px;
+    font-size: 18px !important;
     background-color: #15376d !important;
     border: none;
     position: relative;
