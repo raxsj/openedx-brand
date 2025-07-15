@@ -42,7 +42,7 @@ button#sign-in {
 .small-screen-top-stripe {
     background-repeat: no-repeat;
     height: .25rem;
-	display: none;
+    display: none;
 }
 
 button#sign-in {
@@ -54,7 +54,7 @@ button#sign-in {
 .mw-xs.mt-3 .mt-4.mb-3.h4:before {
     content: "Sign in with:";
     visibility: visible;
-	display:none;
+    display:none;
 }
 
 //header background to none
@@ -295,7 +295,7 @@ p.mt-5\.5.small.text-gray-700 {
     all: unset;
     width: 100px;
     height: 30px;
-    font-size: 16px;
+    // font-size: 16px;
     background-color: #15376d !important;
     border: none;
     position: relative;
@@ -317,7 +317,7 @@ p.mt-5\.5.small.text-gray-700 {
 .btn-oa2-azuread-oauth2:hover{
     background-color: #fff !important;
     border: 1px solid #15376d !important;
-    color: #15376d;
+    color: #15376d !important;
 }
 
 
