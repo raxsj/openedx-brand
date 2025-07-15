@@ -33,6 +33,12 @@ h4{
     text-align: start;
 }
 
+button#sign-in {
+    anchor-name: none;
+    background: #e96828 !important;
+    border-color: #e96828 !important;
+    display: none !important;
+}
 .small-screen-top-stripe {
     background-repeat: no-repeat;
     height: .25rem;
