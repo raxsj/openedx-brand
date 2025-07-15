@@ -99,7 +99,7 @@ h1.display-2.text-white.mw-xs.ml-6 {
     margin: 0 !important;
     max-width: 900px !important;
     height: 500px;
-    display: flex;
+    display: none;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -108,7 +108,7 @@ h1.display-2.text-white.mw-xs.ml-6 {
 
 h1.display-2.text-white.mw-xs.ml-6::before{
     content: '';
-    display: inline-block;
+    display: none;
     width: 300px;
     background: url("https://raw.githubusercontent.com/allenluna/VXI_Brand-OpenEdx/main/itechlogo-white.png") no-repeat center center;
     background-size: cover;
